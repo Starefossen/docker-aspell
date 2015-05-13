@@ -1,0 +1,5 @@
+aspell:
+    build: .
+    volumes:
+        - test:test
+    command: aspell -c test/ipsum.txt
