@@ -20,7 +20,7 @@ them as a voulme inside the container and run aspell on the files you like to
 spell check like this:
 
 ```
-$ docker run --rm -v some/dir:/some/dir starefossen/spell -c /some/dir/file.txt
+$ docker run --rm -v some/dir:/some/dir starefossen/aspell -c /some/dir/file.txt
 ```
 
 ## License
