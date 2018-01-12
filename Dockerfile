@@ -24,3 +24,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
     && make install \
 
   && rm -rf /aspell* /var/lib/apt/lists/*
+ENTRYPOINT ["aspell"]
